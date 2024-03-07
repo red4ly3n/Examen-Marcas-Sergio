@@ -1,0 +1,195 @@
+
+
+
+@font-face {
+    font-family: 'WebcomicBros';
+    src: url('../font/SuperMario256.ttf');
+  }
+
+body {
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+      
+}
+
+h1 {
+    font-family: 'WebcomicBros', sans-serif; 
+    color: red ;
+    font-size: 60px;
+    text-align: center;
+}
+
+.contenedor_principal {
+    position: relative;
+    background-image: url(../img/fondo.jpg);
+    width: 700px;
+    height: 500px;
+    border-width: 5px;
+    border-style: double;
+    border-color: red;
+    border-radius: 20px;
+    display: flex;
+
+    left: 27%;
+ 
+}
+
+.caja_texto_1 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: 120px;
+    background-color: orange;
+    border-radius: 20px;
+    font-family: 'WebcomicBros', sans-serif; 
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.caja_texto_2 {
+    position:absolute;
+    top: 20px;
+    left: 250px;
+    width: 200px;
+    height: 120px;
+    background-color: orange;
+    border-radius: 20px;
+    font-family: 'WebcomicBros', sans-serif; 
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.caja_texto_3 {
+    margin: 20px;
+    position: absolute;
+    width: 200px;
+    height: 120px;
+    background-color: orange;
+    border-radius: 20px;
+    font-family: 'WebcomicBros', sans-serif; 
+    color: white;
+    top: 140px;
+    right: 460px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.caja_texto_4 {
+    margin: 20px;
+    position: relative;
+    width: 200px;
+    height: 120px;
+    background-color: orange;
+    border-radius: 20px;
+    font-family: 'WebcomicBros', sans-serif; 
+    color: white;
+    top: 140px;
+    left: 30px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.p_texto {
+    padding-top: 30px;
+
+}
+
+.sombrero_top_izq {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.sombrero_top_dch {
+    position: absolute;
+    top: 2px;
+    left: 171px;
+}
+
+.sombrero_bot_izq {
+    position: absolute;
+    top: 95px;
+    left: 1px;
+}
+
+.sombrero_bot_dch {
+    position: absolute;
+    top: 95px;
+    left: 171px;
+}
+
+.estrella {
+    position: absolute;
+    top: 250px;
+    width: 300px;
+    height: 300px;
+    right:570px;
+
+}
+
+.estrella:hover {
+    box-shadow: 0px 5px 10px black;
+}
+
+
+.logo_mario {
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    width: 250px;
+    height: 300px;
+}
+
+.mario {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 98px;
+    left: 20px;
+}
+
+.mario:hover {
+    box-shadow: 0px 5px 10px black;
+}
+
+.caja_sergio {
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    font-family: 'WebcomicBros', sans-serif; 
+    top: 500px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: red;
+    border-width: 2px;
+    border-style:groove;
+    left: 690px;
+}
+
+.caja_sergio:hover {
+    background-color: brown;
+
+    .p_texto2 {
+        color: white;
+    }
+}
+
+.p_texto2 {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    color: brown;
+}
+
+.yoshi {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 415px;
+    left:897px;
+}
